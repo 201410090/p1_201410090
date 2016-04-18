@@ -1,0 +1,34 @@
+﻿import turtle
+wn=turtle.Screen()
+t1=turtle.Turtle()
+
+def drawSquareAtSave(size,pos):
+    tracks=list()
+    t1.penup()
+    t1.setpos(pos)
+    t1.pendown
+    for i in range(0,4):
+            tracks.append(t1.pos())
+    return tracks
+        
+def lab7():
+    size=100
+    pos=t1.pos()
+    mytracks=drawsquareAtSave(size,pos)
+    drawSquareFront_list(mytracks)
+    print mytracks
+
+def main():
+    lab7()
+
+def drawSquareFront_list():
+	t1.penup()
+	t1.tracks(tracks[3])
+	t1.pendown()
+	for i in range(4):
+		t1.goto(tracks[i])
+
+if __name__=="__main__":
+    main()
+
+raw_input()
