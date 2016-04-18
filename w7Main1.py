@@ -6,7 +6,6 @@ def drawsquareAtSave(size,pos):
     tracks=list()
     t1.penup()
     t1.setpos(pos)
-    t1.pendown
     for i in range(0,4):
             t1.fd(size)
             t1.left(90)
